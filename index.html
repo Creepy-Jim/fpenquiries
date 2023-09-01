@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>Fountain pen enquries</title>
+        <style>
+            .searchbox{
+            width : 50%;
+            color : red;
+            }
+
+            .searchbox-text{
+                display : inline-block;
+                width : 50px
+            }
+
+            .searchbox-input{
+
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1><i>Fountain pen enquries</i></h1>
+        <p>Welcome to the fountain pen enquires. Please complete the form to search for specific pens. </p>
+        <form id="search">
+            <div class="searchbox">
+                <label class="searchbox-text" for="name">Name: </label>
+                <input type="text" name="name" id="name" required />
+            </div>
+        <br>
+            <div class="searchbox">
+                <label class="searchbox-text" for="name">Cat: </label>
+                <input type="text" name="cat" id="cat" />
+            </div>
+        <br>
+            <div>
+                <input type="button" value="Reset"/>
+    
+                <input type="submit" value="Submit for search"/>
+            </div>
+        </form>
+
+    </body>
+</html>
